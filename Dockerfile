@@ -16,9 +16,5 @@ RUN yum install -y mssql-server
 # Default SQL Server TCP/Port
 EXPOSE 1433
 
-#Import the sqlservr.sh script
-ADD ./sqlservr.sh /opt/mssql/bin/
-RUN chmod a+x /opt/mssql/bin/sqlservr.sh
-
 # Run SQL Server process
-CMD /bin/bash /opt/mssql/bin/sqlservr.sh
+CMD /bin/bash /opt/mssql/bin/sqlservr
