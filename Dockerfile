@@ -1,3 +1,4 @@
+# PLEASE SEE THE NEWER VERSION OF THIS AT: https://github.com/Microsoft/mssql-docker/blob/master/linux/preview/RHEL/Dockerfile
 # mssql-server-rhel
 # Maintainers: Travis Wright (twright-msft on GitHub)
 # GitRepo: https://github.com/twright-msft/mssql-server-rhel
