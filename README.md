@@ -1,3 +1,7 @@
+# IMPORTANT
+_PLEASE SEE THE NEWER/OFFICIAL IMPLEMENTATION OF THIS PROJECT AT THE [MSSQL-DOCKER PROJECT](https://github.com/Microsoft/mssql-docker)_
+
+
 # mssql-server-rhel
 This project is a Dockerfile for building an image based on the [official Red Hat Enterprise Linux 7 image](https://access.redhat.com/containers/#/registry.access.redhat.com/rhel7/rhel).  
 
