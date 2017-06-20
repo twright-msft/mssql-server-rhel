@@ -21,4 +21,5 @@ RUN yum install -y mssql-server
 EXPOSE 1433
 
 # Run SQL Server process
-CMD /bin/bash /opt/mssql/bin/sqlservr
+CMD ["/bin/bash", "-c", "/opt/mssql/bin/sqlservr"]
+
